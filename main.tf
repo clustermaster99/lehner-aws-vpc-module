@@ -10,5 +10,5 @@ resource "aws_vpc" "lehner-vpc" {
 }
 
 provider "aws" {
-  region = var.region
+  region = "us-east-1"
 }
