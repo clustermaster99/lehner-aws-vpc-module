@@ -8,3 +8,7 @@ resource "aws_vpc" "lehner-vpc" {
     "Name" = var.name
   }
 }
+
+provider "aws" {
+  region = var.region
+}
