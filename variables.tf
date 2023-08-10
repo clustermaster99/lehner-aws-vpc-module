@@ -16,10 +16,10 @@ variable "name" {
 # }
 
 
-# variable "cidr" {
-#   description = "(Optional) The IPv4 CIDR block for the VPC."
-#   default     = "10.0.0.0/16"
-# }
+variable "cidr" {
+  description = "(Optional) The IPv4 CIDR block for the VPC."
+  default     = "10.0.0.0/16"
+}
 
 # variable "AWS_ACCESS_KEY_ID" {
 #   description = "aws access key"
